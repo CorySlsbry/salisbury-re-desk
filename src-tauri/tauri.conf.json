@@ -1,0 +1,81 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "Salisbury RE Desk",
+  "version": "0.1.0",
+  "identifier": "com.salisburyre.desk",
+  "build": {
+    "beforeDevCommand": "pnpm dev",
+    "devUrl": "http://localhost:1420",
+    "beforeBuildCommand": "pnpm build",
+    "frontendDist": "../dist"
+  },
+  "app": {
+    "windows": [
+      {
+        "label": "splash",
+        "url": "splash.html",
+        "title": "Salisbury RE Desk",
+        "width": 520,
+        "height": 340,
+        "decorations": false,
+        "resizable": false,
+        "center": true,
+        "alwaysOnTop": true,
+        "visible": true,
+        "skipTaskbar": true
+      },
+      {
+        "label": "main",
+        "url": "index.html",
+        "title": "Salisbury RE Desk",
+        "width": 1380,
+        "height": 880,
+        "minWidth": 1024,
+        "minHeight": 700,
+        "center": true,
+        "visible": false
+      }
+    ],
+    "security": {
+      "csp": "default-src 'self' ipc: http://ipc.localhost; img-src 'self' data: blob: asset: http://asset.localhost; style-src 'self' 'unsafe-inline'; connect-src 'self' ipc: http://ipc.localhost http://127.0.0.1:8093 http://127.0.0.1:11434 http://asset.localhost https://oauth2.googleapis.com https://www.googleapis.com https://gmail.googleapis.com https://people.googleapis.com https://your-project.supabase.co; worker-src 'self' blob:",
+      "assetProtocol": {
+        "enable": true,
+        "scope": [
+          "$DOCUMENT/Salisbury RE/**",
+          "$HOME/.salisbury-re/**"
+        ]
+      }
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": [
+      "nsis"
+    ],
+    "createUpdaterArtifacts": false,
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.icns",
+      "icons/icon.ico"
+    ],
+    "resources": {
+      "resources/doc/": "resources/doc/",
+      "resources/llama/": "resources/llama/"
+    },
+    "windows": {
+      "nsis": {
+        "installMode": "currentUser",
+        "installerIcon": "icons/icon.ico",
+        "languages": [
+          "English"
+        ],
+        "displayLanguageSelector": false
+      },
+      "webviewInstallMode": {
+        "type": "downloadBootstrapper"
+      }
+    }
+  }
+}

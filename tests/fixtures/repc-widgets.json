@@ -1,0 +1,1864 @@
+{
+"count": 143,
+"widgets": [
+{
+"page": 1,
+"name": "s",
+"type": "Text",
+"value": "",
+"rect": [
+60.6,
+94.0,
+80.0,
+104.4
+],
+"label": "On this"
+},
+{
+"page": 1,
+"name": "day of",
+"type": "Text",
+"value": "",
+"rect": [
+104.8,
+94.0,
+165.0,
+104.4
+],
+"label": "On this day of"
+},
+{
+"page": 1,
+"name": "Offer Reference Date",
+"type": "Text",
+"value": "",
+"rect": [
+285.4,
+94.0,
+466.7,
+104.4
+],
+"label": "On this day of , 20 (\u00e2\u20ac\u0153Offer Reference Date\u00e2\u20ac\udc9d)"
+},
+{
+"page": 1,
+"name": "from",
+"type": "Text",
+"value": "",
+"rect": [
+53.0,
+105.5,
+246.7,
+115.9
+],
+"label": "from"
+},
+{
+"page": 1,
+"name": "calendar days after Acceptance as defined in Section 23 an Earnest Money Deposit in the amount of",
+"type": "Text",
+"value": "",
+"rect": [
+460.1,
+116.9,
+534.2,
+127.3
+],
+"label": "in Section 23), an Earnest Money Deposit in the amount of $"
+},
+{
+"page": 1,
+"name": "of",
+"type": "Text",
+"value": "",
+"rect": [
+38.8,
+128.4,
+198.8,
+138.8
+],
+"label": "of"
+},
+{
+"page": 1,
+"name": "PROPERTY",
+"type": "Text",
+"value": "",
+"rect": [
+100.6,
+174.6,
+581.4,
+185.0
+],
+"label": "1. PROPERTY:"
+},
+{
+"page": 1,
+"name": "City of",
+"type": "Text",
+"value": "",
+"rect": [
+58.0,
+191.8,
+195.6,
+202.2
+],
+"label": "City of"
+},
+{
+"page": 1,
+"name": "County of",
+"type": "Text",
+"value": "",
+"rect": [
+237.0,
+191.8,
+358.6,
+202.2
+],
+"label": "City of , County of"
+},
+{
+"page": 1,
+"name": "State of Utah Zip",
+"type": "Text",
+"value": "",
+"rect": [
+438.7,
+191.6,
+468.8,
+202.1
+],
+"label": ", County of , State of Utah, Zip"
+},
+{
+"page": 1,
+"name": "Tax ID No",
+"type": "Text",
+"value": "",
+"rect": [
+508.3,
+191.8,
+582.6,
+202.2
+],
+"label": ", State of Utah, Zip Tax ID No."
+},
+{
+"page": 1,
+"name": "The above checked items shal",
+"type": "Text",
+"value": "",
+"rect": [
+32.4,
+318.0,
+578.1,
+328.1
+],
+"label": ""
+},
+{
+"page": 1,
+"name": "Excluded Items The following items are excluded from this sale",
+"type": "Text",
+"value": "",
+"rect": [
+317.0,
+362.9,
+577.1,
+373.3
+],
+"label": "Excluded Items. The following items are excluded from this sale:"
+},
+{
+"page": 1,
+"name": "ghtswater shares if any that are the legal source for Seller",
+"type": "Text",
+"value": "",
+"rect": [
+33.2,
+375.6,
+577.0,
+385.1
+],
+"label": ""
+},
+{
+"page": 1,
+"name": "from this sale 1",
+"type": "Text",
+"value": "",
+"rect": [
+85.6,
+420.1,
+574.7,
+430.6
+],
+"label": "from this sale:"
+},
+{
+"page": 1,
+"name": "from this sale 2",
+"type": "Text",
+"value": "",
+"rect": [
+32.4,
+431.6,
+572.6,
+442.1
+],
+"label": ""
+},
+{
+"page": 1,
+"name": "ce for the Property is",
+"type": "Text",
+"value": "",
+"rect": [
+335.8,
+460.3,
+432.8,
+470.8
+],
+"label": "Payment of Purchase Price. The Purchase Price for the Property is $"
+},
+{
+"page": 1,
+"name": "undefined",
+"type": "Text",
+"value": "",
+"rect": [
+37.0,
+500.5,
+124.6,
+511.0
+],
+"label": "$"
+},
+{
+"page": 1,
+"name": "undefined_2",
+"type": "Text",
+"value": "",
+"rect": [
+37.0,
+523.2,
+124.6,
+533.6
+],
+"label": "$"
+},
+{
+"page": 1,
+"name": "undefined_3",
+"type": "Text",
+"value": "",
+"rect": [
+37.0,
+540.7,
+124.6,
+551.2
+],
+"label": "$"
+},
+{
+"page": 1,
+"name": "undefined_4",
+"type": "Text",
+"value": "",
+"rect": [
+37.0,
+563.4,
+125.8,
+573.8
+],
+"label": "$"
+},
+{
+"page": 1,
+"name": "undefined_5",
+"type": "Text",
+"value": "",
+"rect": [
+37.0,
+580.7,
+124.6,
+591.1
+],
+"label": "$"
+},
+{
+"page": 1,
+"name": "undefined_6",
+"type": "Text",
+"value": "",
+"rect": [
+37.0,
+598.0,
+124.6,
+608.4
+],
+"label": "$"
+},
+{
+"page": 1,
+"name": "Buyers Initials",
+"type": "Text",
+"value": "",
+"rect": [
+185.5,
+708.5,
+268.4,
+718.9
+],
+"label": "Page 1 of 6 pages Buyer\u00e2\u20ac\u2122s Initials"
+},
+{
+"page": 1,
+"name": "Date",
+"type": "Text",
+"value": "",
+"rect": [
+287.2,
+708.5,
+340.8,
+718.9
+],
+"label": "Page 1 of 6 pages Buyer\u00e2\u20ac\u2122s Initials Date"
+},
+{
+"page": 1,
+"name": "Sellers Initials",
+"type": "Text",
+"value": "",
+"rect": [
+418.7,
+708.5,
+502.4,
+718.9
+],
+"label": "Date Seller\u00e2\u20ac\u2122s Initials"
+},
+{
+"page": 1,
+"name": "Date_2",
+"type": "Text",
+"value": "",
+"rect": [
+521.2,
+708.5,
+574.8,
+718.9
+],
+"label": "Date Seller\u00e2\u20ac\u2122s Initials Date"
+},
+{
+"page": 1,
+"name": "Check Box1",
+"type": "CheckBox",
+"value": "",
+"rect": [
+290.3,
+296.2,
+301.8,
+307.7
+],
+"label": "the parties and are also included in this sale (check applicable box):"
+},
+{
+"page": 1,
+"name": "Check Boxdryers",
+"type": "CheckBox",
+"value": "",
+"rect": [
+346.9,
+296.2,
+358.5,
+307.7
+],
+"label": "are also included in this sale (check applicable box): washers"
+},
+{
+"page": 1,
+"name": "Check Box frig",
+"type": "CheckBox",
+"value": "",
+"rect": [
+393.0,
+296.2,
+404.5,
+307.7
+],
+"label": "in this sale (check applicable box): washers dryers"
+},
+{
+"page": 1,
+"name": "Check Box micro",
+"type": "CheckBox",
+"value": "",
+"rect": [
+461.5,
+296.2,
+473.0,
+307.7
+],
+"label": "applicable box): washers dryers refrigerators"
+},
+{
+"page": 1,
+"name": "Check Box other",
+"type": "CheckBox",
+"value": "",
+"rect": [
+32.4,
+306.9,
+43.9,
+318.4
+],
+"label": ""
+},
+{
+"page": 1,
+"name": "Check Box are",
+"type": "CheckBox",
+"value": "",
+"rect": [
+218.7,
+339.9,
+230.2,
+351.4
+],
+"label": "boxes checked in this Section 1.2 above, there"
+},
+{
+"page": 1,
+"name": "Check Box are not",
+"type": "CheckBox",
+"value": "",
+"rect": [
+259.2,
+339.9,
+270.7,
+351.4
+],
+"label": "boxes checked in this Section 1.2 above, there ARE"
+},
+{
+"page": 1,
+"name": "Check Box is",
+"type": "CheckBox",
+"value": "",
+"rect": [
+234.1,
+627.2,
+245.6,
+638.7
+],
+"label": "portion of the cash referenced in Section 2.1(e) above"
+},
+{
+"page": 1,
+"name": "Check Box is not",
+"type": "CheckBox",
+"value": "",
+"rect": [
+257.9,
+627.2,
+269.4,
+638.7
+],
+"label": "portion of the cash referenced in Section 2.1(e) above [ ] IS"
+},
+{
+"page": 2,
+"name": "undefined_7",
+"type": "Text",
+"value": "",
+"rect": [
+115.3,
+124.0,
+134.0,
+134.5
+],
+"label": "Upon Recording;"
+},
+{
+"page": 2,
+"name": "Other explain",
+"type": "Text",
+"value": "",
+"rect": [
+356.2,
+226.0,
+576.0,
+235.8
+],
+"label": "Split Equally Between Buyer and Seller Other (explain)"
+},
+{
+"page": 2,
+"name": "Other explain_2",
+"type": "Text",
+"value": "",
+"rect": [
+356.6,
+365.8,
+577.4,
+375.7
+],
+"label": "Split Equally Between Buyer and Seller Other (explain)"
+},
+{
+"page": 2,
+"name": "Percent",
+"type": "Text",
+"value": "",
+"rect": [
+451.6,
+409.4,
+470.1,
+420.0
+],
+"label": "Compensation. Seller and Buyer agree that Seller shall contribute"
+},
+{
+"page": 2,
+"name": "amount 4.3e",
+"type": "Text",
+"value": "",
+"rect": [
+88.1,
+420.2,
+174.7,
+430.5
+],
+"label": "Brokerage or"
+},
+{
+"page": 2,
+"name": "s Agents",
+"type": "Text",
+"value": "",
+"rect": [
+94.8,
+549.0,
+284.4,
+559.5
+],
+"label": "Seller\u00e2\u20ac\u2122s Agent(s)"
+},
+{
+"page": 2,
+"name": "Sellers Agents Utah Real Estate License Numbers",
+"type": "Text",
+"value": "",
+"rect": [
+227.6,
+564.3,
+500.5,
+574.9
+],
+"label": "Seller\u00e2\u20ac\u2122s Agent(s) Utah Real Estate License Number(s):"
+},
+{
+"page": 2,
+"name": "Sellers Brokerage",
+"type": "Text",
+"value": "",
+"rect": [
+98.2,
+582.6,
+266.4,
+593.1
+],
+"label": "Seller\u00e2\u20ac\u2122s Brokerage"
+},
+{
+"page": 2,
+"name": "Estate License Number",
+"type": "Text",
+"value": "",
+"rect": [
+225.0,
+600.4,
+356.5,
+611.0
+],
+"label": "Seller\u00e2\u20ac\u2122s Brokerage Utah Real Estate License Number:"
+},
+{
+"page": 2,
+"name": "s Agents_2",
+"type": "Text",
+"value": "",
+"rect": [
+95.2,
+618.8,
+284.4,
+629.4
+],
+"label": "Buyer\u00e2\u20ac\u2122s Agent(s)"
+},
+{
+"page": 2,
+"name": "s Agents Utah Real Estate License Numbers",
+"type": "Text",
+"value": "",
+"rect": [
+228.1,
+636.8,
+500.5,
+647.4
+],
+"label": "Buyer\u00e2\u20ac\u2122s Agent(s) Utah Real Estate License Number(s):"
+},
+{
+"page": 2,
+"name": "s Brokerage",
+"type": "Text",
+"value": "",
+"rect": [
+98.4,
+655.2,
+266.4,
+665.7
+],
+"label": "Buyer\u00e2\u20ac\u2122s Brokerage"
+},
+{
+"page": 2,
+"name": "Estate License Number_2",
+"type": "Text",
+"value": "",
+"rect": [
+225.1,
+673.0,
+356.5,
+683.6
+],
+"label": "Buyer\u00e2\u20ac\u2122s Brokerage Utah Real Estate License Number:"
+},
+{
+"page": 2,
+"name": "Date_3",
+"type": "Text",
+"value": "",
+"rect": [
+287.2,
+704.4,
+340.8,
+714.9
+],
+"label": "Page 2 of 6 pages Buyer\u00e2\u20ac\u2122s Initials Date"
+},
+{
+"page": 2,
+"name": "Sellers Initials_2",
+"type": "Text",
+"value": "",
+"rect": [
+418.7,
+704.4,
+502.4,
+714.9
+],
+"label": "Date Seller\u00e2\u20ac\u2122s Initials"
+},
+{
+"page": 2,
+"name": "Buyers Initials_2",
+"type": "Text",
+"value": "",
+"rect": [
+185.5,
+704.4,
+268.4,
+714.9
+],
+"label": "Page 2 of 6 pages Buyer\u00e2\u20ac\u2122s Initials"
+},
+{
+"page": 2,
+"name": "Date_4",
+"type": "Text",
+"value": "",
+"rect": [
+521.2,
+704.4,
+574.8,
+714.9
+],
+"label": "Date Seller\u00e2\u20ac\u2122s Initials Date"
+},
+{
+"page": 2,
+"name": "Check Box und",
+"type": "CheckBox",
+"value": "",
+"rect": [
+101.7,
+123.5,
+113.3,
+135.0
+],
+"label": "Upon Recording;"
+},
+{
+"page": 2,
+"name": "Check Box 61 and",
+"type": "CheckBox",
+"value": "",
+"rect": [
+228.7,
+123.5,
+240.2,
+135.0
+],
+"label": "Upon Recording; Hours after Recording;"
+},
+{
+"page": 2,
+"name": "undefined_7b",
+"type": "Text",
+"value": "",
+"rect": [
+242.0,
+124.0,
+256.8,
+134.4
+],
+"label": "Upon Recording; Hours after Recording;"
+},
+{
+"page": 2,
+"name": "Check Box und2",
+"type": "CheckBox",
+"value": "",
+"rect": [
+567.3,
+112.3,
+578.8,
+123.8
+],
+"label": "shall deliver physical possession of the Property to Buyer as follows:"
+},
+{
+"page": 2,
+"name": "Check Box sell1",
+"type": "CheckBox",
+"value": "",
+"rect": [
+31.5,
+225.9,
+43.0,
+237.4
+],
+"label": ""
+},
+{
+"page": 2,
+"name": "Check Box buy1",
+"type": "CheckBox",
+"value": "",
+"rect": [
+72.7,
+225.9,
+84.3,
+237.4
+],
+"label": "Seller"
+},
+{
+"page": 2,
+"name": "Check Box  split1",
+"type": "CheckBox",
+"value": "",
+"rect": [
+111.8,
+225.9,
+123.3,
+237.4
+],
+"label": "Seller Buyer"
+},
+{
+"page": 2,
+"name": "Check Box  other1",
+"type": "CheckBox",
+"value": "",
+"rect": [
+283.7,
+225.9,
+295.2,
+237.4
+],
+"label": "Seller Buyer Split Equally Between Buyer and Seller"
+},
+{
+"page": 2,
+"name": "Check Box sell2",
+"type": "CheckBox",
+"value": "",
+"rect": [
+32.4,
+365.5,
+43.9,
+377.0
+],
+"label": ""
+},
+{
+"page": 2,
+"name": "Check Box buy2",
+"type": "CheckBox",
+"value": "",
+"rect": [
+71.0,
+365.5,
+82.5,
+377.0
+],
+"label": "Seller"
+},
+{
+"page": 2,
+"name": "Check Box  split2",
+"type": "CheckBox",
+"value": "",
+"rect": [
+109.8,
+365.5,
+121.3,
+377.0
+],
+"label": "Seller Buyer"
+},
+{
+"page": 2,
+"name": "Check Box  other2",
+"type": "CheckBox",
+"value": "",
+"rect": [
+280.7,
+365.5,
+292.2,
+377.0
+],
+"label": "Seller Buyer Split Equally Between Buyer and Seller"
+},
+{
+"page": 2,
+"name": "Check Box sellski1",
+"type": "CheckBox",
+"value": "",
+"rect": [
+336.2,
+548.3,
+347.8,
+559.8
+],
+"label": ", represent(s)"
+},
+{
+"page": 2,
+"name": "Check Box obaski1",
+"type": "CheckBox",
+"value": "",
+"rect": [
+379.0,
+548.3,
+390.5,
+559.9
+],
+"label": ", represent(s) [ Seller"
+},
+{
+"page": 2,
+"name": "Check Box sellski2",
+"type": "CheckBox",
+"value": "",
+"rect": [
+314.0,
+582.8,
+325.5,
+594.4
+],
+"label": "Brokerage , represents"
+},
+{
+"page": 2,
+"name": "Check Box obaski2",
+"type": "CheckBox",
+"value": "",
+"rect": [
+360.2,
+582.7,
+371.7,
+594.2
+],
+"label": ", represents Seller"
+},
+{
+"page": 2,
+"name": "Check Box sellski3",
+"type": "CheckBox",
+"value": "",
+"rect": [
+340.1,
+618.4,
+351.6,
+629.9
+],
+"label": ", represent(s)"
+},
+{
+"page": 2,
+"name": "Check Box obaski3",
+"type": "CheckBox",
+"value": "",
+"rect": [
+387.3,
+618.4,
+398.8,
+629.9
+],
+"label": ", represent(s) Buyer"
+},
+{
+"page": 2,
+"name": "Check Box sellski4",
+"type": "CheckBox",
+"value": "",
+"rect": [
+327.2,
+655.1,
+338.7,
+666.6
+],
+"label": ", represents"
+},
+{
+"page": 2,
+"name": "Check Box obaski4",
+"type": "CheckBox",
+"value": "",
+"rect": [
+383.2,
+655.1,
+394.7,
+666.6
+],
+"label": ", represents Buyer"
+},
+{
+"page": 3,
+"name": "Other specify",
+"type": "Text",
+"value": "",
+"rect": [
+106.4,
+413.2,
+578.3,
+425.4
+],
+"label": "(l) Other (specify)"
+},
+{
+"page": 3,
+"name": "Buyers Initials_3",
+"type": "Text",
+"value": "",
+"rect": [
+185.5,
+709.3,
+268.4,
+718.9
+],
+"label": "Page 3 of 6 pages Buyer\u00e2\u20ac\u2122s Initials"
+},
+{
+"page": 3,
+"name": "Date_5",
+"type": "Text",
+"value": " ",
+"rect": [
+287.2,
+709.3,
+340.8,
+718.9
+],
+"label": "Page 3 of 6 pages Buyer\u00e2\u20ac\u2122s Initials Date"
+},
+{
+"page": 3,
+"name": "Sellers Initials_3",
+"type": "Text",
+"value": "",
+"rect": [
+418.7,
+709.3,
+502.4,
+718.9
+],
+"label": "Date Seller\u00e2\u20ac\u2122s Initials"
+},
+{
+"page": 3,
+"name": "Date_6",
+"type": "Text",
+"value": "",
+"rect": [
+521.2,
+709.3,
+574.8,
+718.9
+],
+"label": "Date Seller\u00e2\u20ac\u2122s Initials Date"
+},
+{
+"page": 3,
+"name": "Check Box is pg 3",
+"type": "CheckBox",
+"value": "",
+"rect": [
+365.1,
+439.0,
+376.6,
+450.5
+],
+"label": "CONDITION. Buyer's obligation to purchase the Property:"
+},
+{
+"page": 3,
+"name": "Check Box si not pg 3",
+"type": "CheckBox",
+"value": "",
+"rect": [
+390.2,
+439.0,
+401.7,
+450.5
+],
+"label": "CONDITION. Buyer's obligation to purchase the Property: IS ["
+},
+{
+"page": 4,
+"name": "on 24c whereupon",
+"type": "Text",
+"value": "",
+"rect": [
+479.9,
+251.2,
+541.9,
+261.4
+],
+"label": "& Appraisal Deadline referenced in Section 24(c); whereupon $"
+},
+{
+"page": 4,
+"name": "s Brokerage an Additional Earnest Money Deposit in the amount of",
+"type": "Text",
+"value": "",
+"rect": [
+376.9,
+418.2,
+456.5,
+428.4
+],
+"label": "Brokerage, an Additional Earnest Money Deposit in the amount of $"
+},
+{
+"page": 4,
+"name": "Addendum No",
+"type": "Text",
+"value": "",
+"rect": [
+277.7,
+468.1,
+337.1,
+477.6
+],
+"label": "incorporated into the RE PC by t his reference: Addendum No."
+},
+{
+"page": 4,
+"name": "Other specify_2",
+"type": "Text",
+"value": "",
+"rect": [
+107.9,
+478.8,
+194.4,
+489.0
+],
+"label": "[ Other (specify)"
+},
+{
+"page": 4,
+"name": "not exceed",
+"type": "Text",
+"value": "",
+"rect": [
+175.4,
+529.0,
+209.3,
+539.2
+],
+"label": "Home Warranty Plan shall not exceed $"
+},
+{
+"page": 4,
+"name": "Buyers Initials_4",
+"type": "Text",
+"value": "",
+"rect": [
+185.5,
+708.7,
+268.4,
+718.9
+],
+"label": "Page 4 of 6 pages Buyer\u00e2\u20ac\u2122s Initials"
+},
+{
+"page": 4,
+"name": "Date_7",
+"type": "Text",
+"value": "",
+"rect": [
+287.2,
+708.7,
+340.8,
+718.9
+],
+"label": "Page 4 of 6 pages Buyer\u00e2\u20ac\u2122s Initials Date"
+},
+{
+"page": 4,
+"name": "Sellers Initials_4",
+"type": "Text",
+"value": "",
+"rect": [
+418.7,
+708.7,
+502.4,
+718.9
+],
+"label": "Date Seller\u00e2\u20ac\u2122s Initials"
+},
+{
+"page": 4,
+"name": "Date_8",
+"type": "Text",
+"value": "",
+"rect": [
+521.2,
+708.7,
+574.8,
+718.9
+],
+"label": "Date Seller\u00e2\u20ac\u2122s Initials Date"
+},
+{
+"page": 4,
+"name": "Check Box is pg 4",
+"type": "CheckBox",
+"value": "",
+"rect": [
+348.3,
+34.5,
+359.8,
+46.0
+],
+"label": "CONDITION. Buyer's obligation to purchase the Propert y:"
+},
+{
+"page": 4,
+"name": "Check Box fin pg 4",
+"type": "CheckBox",
+"value": "",
+"rect": [
+88.4,
+193.7,
+99.9,
+205.2
+],
+"label": "(b)"
+},
+{
+"page": 4,
+"name": "Check Box no fin pg 4",
+"type": "CheckBox",
+"value": "",
+"rect": [
+88.4,
+170.9,
+99.9,
+182.4
+],
+"label": "(a)"
+},
+{
+"page": 4,
+"name": "Check Box is not pg 4",
+"type": "CheckBox",
+"value": "",
+"rect": [
+372.2,
+34.5,
+383.8,
+46.0
+],
+"label": "CONDITION. Buyer's obligation to purchase the Propert y: IS"
+},
+{
+"page": 4,
+"name": "Check Box will pg 4",
+"type": "CheckBox",
+"value": "",
+"rect": [
+510.3,
+405.9,
+521.8,
+417.4
+],
+"label": "or the Financing & Appraisal Deadline, whichever is later, Buyer:"
+},
+{
+"page": 4,
+"name": "Check Box will not pg 4",
+"type": "CheckBox",
+"value": "",
+"rect": [
+547.5,
+405.9,
+559.0,
+417.4
+],
+"label": "Financing & Appraisal Deadline, whichever is later, Buyer: WILL"
+},
+{
+"page": 4,
+"name": "Check Box are 1pg 4",
+"type": "CheckBox",
+"value": "",
+"rect": [
+117.0,
+455.5,
+128.5,
+467.0
+],
+"label": "9. ADDENDA. There"
+},
+{
+"page": 4,
+"name": "Check Box are 1 not pg 4",
+"type": "CheckBox",
+"value": "",
+"rect": [
+154.2,
+455.5,
+165.7,
+467.0
+],
+"label": "9. ADDENDA. There ARE"
+},
+{
+"page": 4,
+"name": "Check Box add pg 4",
+"type": "CheckBox",
+"value": "",
+"rect": [
+201.6,
+467.9,
+213.1,
+479.4
+],
+"label": "incorporated into the RE PC by t his reference:"
+},
+{
+"page": 4,
+"name": "Check Box add 2 pg4 4",
+"type": "CheckBox",
+"value": "",
+"rect": [
+342.2,
+467.9,
+353.8,
+479.4
+],
+"label": "the RE PC by t his reference: Addendum No."
+},
+{
+"page": 4,
+"name": "Check Box add 3 pg4",
+"type": "CheckBox",
+"value": "",
+"rect": [
+471.8,
+467.9,
+483.4,
+479.4
+],
+"label": "Addendum No. Seller Financing Addendum"
+},
+{
+"page": 4,
+"name": "Check Box add 4 pg4",
+"type": "CheckBox",
+"value": "",
+"rect": [
+34.6,
+478.8,
+46.1,
+490.3
+],
+"label": "["
+},
+{
+"page": 4,
+"name": "Check Box will 4 pg4",
+"type": "CheckBox",
+"value": "",
+"rect": [
+303.0,
+504.8,
+314.0,
+516.3
+],
+"label": "10.1 Home Warranty Plan. A one-year Home Warranty Plan"
+},
+{
+"page": 4,
+"name": "Check Box will not 4 pg4",
+"type": "CheckBox",
+"value": "",
+"rect": [
+348.0,
+504.8,
+359.1,
+516.3
+],
+"label": "Warranty Plan. A one-year Home Warranty Plan WIL L"
+},
+{
+"page": 4,
+"name": "Check Box buy 4 pg4",
+"type": "CheckBox",
+"value": "",
+"rect": [
+181.3,
+517.1,
+192.3,
+528.6
+],
+"label": "Home Warranty Plan shall be order ed by"
+},
+{
+"page": 4,
+"name": "Check Box sell 4 pg4",
+"type": "CheckBox",
+"value": "",
+"rect": [
+219.9,
+517.1,
+231.0,
+528.6
+],
+"label": "Home Warranty Plan shall be order ed by Buyer"
+},
+{
+"page": 4,
+"name": "Check Box buy 4a pg4",
+"type": "CheckBox",
+"value": "",
+"rect": [
+427.7,
+517.1,
+438.8,
+528.6
+],
+"label": "by Buyer Seller and shall be issued by a company selected by"
+},
+{
+"page": 4,
+"name": "Check Box sella 4 pg4",
+"type": "CheckBox",
+"value": "",
+"rect": [
+466.4,
+517.1,
+477.5,
+528.6
+],
+"label": "Seller and shall be issued by a company selected by Buyer"
+},
+{
+"page": 4,
+"name": "Check Box sellb 4 pg4",
+"type": "CheckBox",
+"value": "",
+"rect": [
+393.8,
+527.6,
+404.9,
+539.2
+],
+"label": "exceed $ and shall be paid for at Settlement by Buyer"
+},
+{
+"page": 4,
+"name": "Check Box buy 4b pg4",
+"type": "CheckBox",
+"value": "",
+"rect": [
+350.7,
+527.6,
+361.8,
+539.2
+],
+"label": "Plan shall not exceed $ and shall be paid for at Settlement by"
+},
+{
+"page": 5,
+"name": "Buyers Initials_5",
+"type": "Text",
+"value": "",
+"rect": [
+185.2,
+704.5,
+268.0,
+718.9
+],
+"label": "Page 5 of 6 pages Buyer\u00e2\u20ac\u2122s Initials"
+},
+{
+"page": 5,
+"name": "Date_9",
+"type": "Text",
+"value": "",
+"rect": [
+286.8,
+704.5,
+340.5,
+718.9
+],
+"label": "Page 5 of 6 pages Buyer\u00e2\u20ac\u2122s Initials Date"
+},
+{
+"page": 5,
+"name": "Sellers Initials_5",
+"type": "Text",
+"value": "",
+"rect": [
+418.4,
+704.5,
+502.1,
+718.9
+],
+"label": "Date Seller\u00e2\u20ac\u2122s Initials"
+},
+{
+"page": 5,
+"name": "Date_10",
+"type": "Text",
+"value": "",
+"rect": [
+520.8,
+704.5,
+574.5,
+718.9
+],
+"label": "Date Seller\u00e2\u20ac\u2122s Initials Date"
+},
+{
+"page": 5,
+"name": "Check Box shall pg5",
+"type": "CheckBox",
+"value": "",
+"rect": [
+348.7,
+319.0,
+359.8,
+330.5
+],
+"label": "Any dispute relating to the REPC arising prior to or after Closing:"
+},
+{
+"page": 5,
+"name": "Check Box shall not pg5",
+"type": "CheckBox",
+"value": "",
+"rect": [
+393.7,
+319.0,
+404.8,
+330.5
+],
+"label": "relating to the REPC arising prior to or after Closing: SHALL"
+},
+{
+"page": 6,
+"name": "Date_11",
+"type": "Text",
+"value": "",
+"rect": [
+212.4,
+271.1,
+388.0,
+287.5
+],
+"label": "(a) Seller Disclosure Deadline"
+},
+{
+"page": 6,
+"name": "Date_12",
+"type": "Text",
+"value": "",
+"rect": [
+212.4,
+288.4,
+388.0,
+304.7
+],
+"label": "(b) Due Diligence Deadline"
+},
+{
+"page": 6,
+"name": "Date_13",
+"type": "Text",
+"value": "",
+"rect": [
+212.4,
+305.5,
+388.0,
+321.8
+],
+"label": "(c) Financing & Appraisal Deadline"
+},
+{
+"page": 6,
+"name": "Date_14",
+"type": "Text",
+"value": "",
+"rect": [
+212.4,
+322.7,
+387.5,
+339.1
+],
+"label": "(d) Settlement Deadline"
+},
+{
+"page": 6,
+"name": "Earnest Money Depos time",
+"type": "Text",
+"value": "",
+"rect": [
+64.3,
+362.4,
+103.0,
+372.2
+],
+"label": "offer by:"
+},
+{
+"page": 6,
+"name": "Date this offer shal",
+"type": "Text",
+"value": "",
+"rect": [
+220.9,
+362.4,
+321.6,
+372.2
+],
+"label": "offer by: AM PM Mountain Time on"
+},
+{
+"page": 6,
+"name": "Date pg6",
+"type": "Text",
+"value": "",
+"rect": [
+209.4,
+388.4,
+255.8,
+404.9
+],
+"label": ""
+},
+{
+"page": 6,
+"name": "Date_15",
+"type": "Text",
+"value": "",
+"rect": [
+536.9,
+388.4,
+578.3,
+404.9
+],
+"label": ""
+},
+{
+"page": 6,
+"name": "the attached ADDENDUM No",
+"type": "Text",
+"value": "",
+"rect": [
+164.6,
+483.4,
+214.8,
+494.0
+],
+"label": "by the attached ADDENDUM"
+},
+{
+"page": 6,
+"name": "Date_16",
+"type": "Text",
+"value": "",
+"rect": [
+171.5,
+509.8,
+225.1,
+526.2
+],
+"label": ""
+},
+{
+"page": 6,
+"name": "me",
+"type": "Text",
+"value": "",
+"rect": [
+229.7,
+509.8,
+266.5,
+526.2
+],
+"label": ""
+},
+{
+"page": 6,
+"name": "Date_17",
+"type": "Text",
+"value": "",
+"rect": [
+473.4,
+509.4,
+541.1,
+525.8
+],
+"label": ""
+},
+{
+"page": 6,
+"name": "me_2",
+"type": "Text",
+"value": "",
+"rect": [
+545.6,
+509.4,
+576.0,
+525.8
+],
+"label": ""
+},
+{
+"page": 6,
+"name": "Date_18",
+"type": "Text",
+"value": "",
+"rect": [
+185.5,
+702.5,
+268.4,
+718.9
+],
+"label": "Page 6 of 6 pages Buyer\u00e2\u20ac\u2122s Initials"
+},
+{
+"page": 6,
+"name": "undefined_11",
+"type": "Text",
+"value": "",
+"rect": [
+287.2,
+702.5,
+340.8,
+718.9
+],
+"label": "Page 6 of 6 pages Buyer\u00e2\u20ac\u2122s Initials Date"
+},
+{
+"page": 6,
+"name": "Date_19",
+"type": "Text",
+"value": "",
+"rect": [
+418.7,
+702.5,
+502.4,
+718.9
+],
+"label": "Date Seller\u00e2\u20ac\u2122s Initials"
+},
+{
+"page": 6,
+"name": "undefined_12",
+"type": "Text",
+"value": "",
+"rect": [
+521.2,
+702.5,
+574.8,
+718.9
+],
+"label": "Date Seller\u00e2\u20ac\u2122s Initials Date"
+},
+{
+"page": 6,
+"name": "Check Box shall pg5",
+"type": "CheckBox",
+"value": "",
+"rect": [
+104.1,
+361.8,
+115.2,
+373.4
+],
+"label": "offer by:"
+},
+{
+"page": 6,
+"name": "Check Box shall not pg5",
+"type": "CheckBox",
+"value": "",
+"rect": [
+128.8,
+362.1,
+139.8,
+373.6
+],
+"label": "offer by: AM"
+},
+{
+"page": 6,
+"name": "Check Box PM pg6",
+"type": "CheckBox",
+"value": "",
+"rect": [
+128.8,
+361.7,
+139.8,
+373.3
+],
+"label": "offer by: AM"
+},
+{
+"page": 6,
+"name": "Check Box AM pg6",
+"type": "CheckBox",
+"value": "",
+"rect": [
+104.1,
+361.7,
+115.2,
+373.3
+],
+"label": "offer by:"
+},
+{
+"page": 6,
+"name": "Check Box accept pg6",
+"type": "CheckBox",
+"value": "",
+"rect": [
+42.9,
+459.0,
+54.0,
+470.5
+],
+"label": ""
+},
+{
+"page": 6,
+"name": "Check Box counter  pg6",
+"type": "CheckBox",
+"value": "",
+"rect": [
+42.9,
+472.2,
+54.0,
+483.7
+],
+"label": ""
+},
+{
+"page": 6,
+"name": "Check Box rej pg6",
+"type": "CheckBox",
+"value": "",
+"rect": [
+42.9,
+493.5,
+54.0,
+505.0
+],
+"label": ""
+},
+{
+"page": 6,
+"name": "Signature2",
+"type": "Signature",
+"value": "",
+"rect": [
+31.9,
+387.2,
+204.7,
+405.9
+],
+"label": ""
+},
+{
+"page": 6,
+"name": "Signature4",
+"type": "Signature",
+"value": "",
+"rect": [
+309.5,
+386.1,
+535.4,
+404.8
+],
+"label": ""
+},
+{
+"page": 6,
+"name": "Signature5",
+"type": "Signature",
+"value": "",
+"rect": [
+31.9,
+508.1,
+169.4,
+526.8
+],
+"label": ""
+},
+{
+"page": 6,
+"name": "Signature6",
+"type": "Signature",
+"value": "",
+"rect": [
+309.5,
+507.4,
+472.6,
+526.3
+],
+"label": ""
+}
+]
+}

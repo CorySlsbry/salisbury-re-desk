@@ -1,0 +1,68 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "default",
+  "description": "Main window: DB, sidecars, scoped file access under Documents/Salisbury RE and LocalAppData/SalisburyRE",
+  "windows": [
+    "main",
+    "splash"
+  ],
+  "permissions": [
+    "core:default",
+    "core:window:allow-show",
+    "core:window:allow-close",
+    "core:window:allow-set-focus",
+    "core:event:default",
+    "opener:default",
+    {
+      "identifier": "opener:allow-open-path",
+      "allow": [
+        { "path": "$DOCUMENT/Salisbury RE" },
+        { "path": "$DOCUMENT/Salisbury RE/**" },
+        { "path": "$HOME/.salisbury-re/**" },
+        { "path": "$DOWNLOAD/**" },
+        { "path": "$DESKTOP/**" }
+      ]
+    },
+    "dialog:default",
+    "notification:default",
+    "process:default",
+    "sql:default",
+    "sql:allow-execute",
+    "sql:allow-select",
+    "sql:allow-load",
+    "fs:default",
+    "fs:allow-read-text-file",
+    "fs:allow-write-text-file",
+    "fs:allow-read-file",
+    "fs:allow-write-file",
+    "fs:allow-read-dir",
+    "fs:allow-exists",
+    "fs:allow-mkdir",
+    "fs:allow-copy-file",
+    "fs:allow-stat",
+    {
+      "identifier": "fs:scope",
+      "allow": [
+        {
+          "path": "$DOCUMENT/Salisbury RE"
+        },
+        {
+          "path": "$DOCUMENT/Salisbury RE/**"
+        },
+        {
+          "path": "$DOWNLOAD/**"
+        },
+        {
+          "path": "$DESKTOP/**"
+        },
+        {
+          "path": "$HOME/.salisbury-re"
+        },
+        {
+          "path": "$HOME/.salisbury-re/**"
+        }
+      ]
+    },
+    "shell:allow-open"
+  ]
+}

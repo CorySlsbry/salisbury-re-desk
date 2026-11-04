@@ -1,0 +1,428 @@
+{
+  "_source": "Pat Morgan (House Help Utah / Simple Choice) Coaching Playbook: FUB drip + transaction tracker; Bearded Realtor listing course day 13; co-listing SLA template; Cory's post-close SmartPlan design. Nothing auto-sends: every step becomes a task with copy-ready text.",
+  "cadences": [
+    {
+      "code": "new_lead_30",
+      "name": "New lead: 30-day drip",
+      "applies_to": "lead",
+      "weekdays_only": true,
+      "pause_on_reply": true,
+      "steps": [
+        {
+          "day": 1,
+          "kind": "email",
+          "title": "Email 1: Welcome / intro",
+          "body": "Subject: Thanks for reaching out, {{first_name}}\n\nThanks for reaching out! Just wanted to say hi. I will be in touch soon.\n\nCory Salisbury, REALTOR | Simple Choice Real Estate | Equal Housing Opportunity"
+        },
+        {
+          "day": 2,
+          "kind": "call",
+          "title": "Call {{first_name}}: confirm welcome email, introduce yourself"
+        },
+        {
+          "day": 4,
+          "kind": "email",
+          "title": "Email 2: Local market snapshot",
+          "body": "Subject: What is actually happening in the {{city}} market right now\n\nPlain-English update: days on market, median price trend, one stat. Two paragraphs max.\nWant a custom report for your neighborhood? Reply and I will send it.\n\nCory Salisbury, REALTOR | Simple Choice Real Estate | Equal Housing Opportunity"
+        },
+        {
+          "day": 7,
+          "kind": "text",
+          "title": "Text {{first_name}}: personal check-in, no pitch"
+        },
+        {
+          "day": 10,
+          "kind": "email",
+          "title": "Email 3: Why you / personal story",
+          "body": "Subject: Why I got into real estate (the short version)\n\nFour or five sentences: local roots, what you care about, the clients you love. Warm, not salesy.\n\nCory Salisbury, REALTOR | Simple Choice Real Estate | Equal Housing Opportunity"
+        },
+        {
+          "day": 12,
+          "kind": "video_text",
+          "title": "Record a 30-second video text for {{first_name}}"
+        },
+        {
+          "day": 16,
+          "kind": "email",
+          "title": "Email 4: Home valuation or hand-picked listings",
+          "body": "Subject: Curious what your home is worth? / A few homes you might like\n\nOffer a free, no-obligation home valuation OR a few hand-picked listings that match what they told you. Include a link.\n\nCory Salisbury, REALTOR | Simple Choice Real Estate | Equal Housing Opportunity"
+        },
+        {
+          "day": 18,
+          "kind": "call",
+          "title": "Call {{first_name}}: quick check-in, no agenda"
+        },
+        {
+          "day": 22,
+          "kind": "email",
+          "title": "Email 5: Client story",
+          "body": "Subject: How we got the {{story_family}} family into their home\n\nA short, real client story: challenge, what you did, outcome. End: Every situation is different. If yours feels complicated, that is when I would love to chat.\n\nCory Salisbury, REALTOR | Simple Choice Real Estate | Equal Housing Opportunity"
+        },
+        {
+          "day": 25,
+          "kind": "text",
+          "title": "Text {{first_name}} a relevant listing or local stat"
+        },
+        {
+          "day": 30,
+          "kind": "email",
+          "title": "Email 6: Direct ask",
+          "body": "Subject: {{first_name}}, where are you at?\n\nIt has been a month. Are you closer to buying or selling, on pause, or just exploring? Whatever the answer, I would love to know. {{phone}} or {{calendar_link}}.\n\nCory Salisbury, REALTOR | Simple Choice Real Estate | Equal Housing Opportunity"
+        },
+        {
+          "day": 30,
+          "kind": "call",
+          "title": "DECISION CALL: ask {{first_name}} where they are at"
+        }
+      ]
+    },
+    {
+      "code": "nurture_monthly",
+      "name": "Long-term nurture: monthly touch (12-month rolling)",
+      "applies_to": "lead",
+      "weekdays_only": true,
+      "pause_on_reply": true,
+      "steps": [
+        {
+          "day": 1,
+          "kind": "email",
+          "title": "Monthly market update"
+        },
+        {
+          "day": 30,
+          "kind": "email",
+          "title": "Monthly market update"
+        },
+        {
+          "day": 60,
+          "kind": "email",
+          "title": "Monthly market update"
+        },
+        {
+          "day": 90,
+          "kind": "call",
+          "title": "Quarterly call: how is life? Anything I can help with?"
+        },
+        {
+          "day": 120,
+          "kind": "email",
+          "title": "Monthly market update"
+        },
+        {
+          "day": 150,
+          "kind": "email",
+          "title": "Monthly market update"
+        },
+        {
+          "day": 180,
+          "kind": "call",
+          "title": "Mid-year call: real estate on the radar?"
+        },
+        {
+          "day": 210,
+          "kind": "email",
+          "title": "Monthly market update"
+        },
+        {
+          "day": 240,
+          "kind": "email",
+          "title": "Monthly market update"
+        },
+        {
+          "day": 270,
+          "kind": "call",
+          "title": "Q3 relationship call"
+        },
+        {
+          "day": 300,
+          "kind": "email",
+          "title": "Monthly market update"
+        },
+        {
+          "day": 330,
+          "kind": "email",
+          "title": "Monthly market update"
+        },
+        {
+          "day": 365,
+          "kind": "call",
+          "title": "Annual real estate review call"
+        }
+      ]
+    },
+    {
+      "code": "listing_launch",
+      "name": "Listing launch (from signing)",
+      "applies_to": "listing",
+      "weekdays_only": false,
+      "steps": [
+        {
+          "day": 0,
+          "kind": "task",
+          "title": "Ask seller: preferred title company, then ORDER TITLE now (before any offer)"
+        },
+        {
+          "day": 0,
+          "kind": "task",
+          "title": "Send seller the Property Condition Disclosure to complete (seller fills it, never the agent)"
+        },
+        {
+          "day": 0,
+          "kind": "task",
+          "title": "If HOA: order HOA documents, CC&Rs, budget, minutes"
+        },
+        {
+          "day": 0,
+          "kind": "task",
+          "title": "If built before 1978: lead-based paint disclosure signed (MLS will not publish without it)"
+        },
+        {
+          "day": 1,
+          "kind": "task",
+          "title": "Schedule photos; create group text with seller"
+        },
+        {
+          "day": 1,
+          "kind": "task",
+          "title": "Prepare MLS listing input form; plan go-live on a Thursday"
+        },
+        {
+          "day": 3,
+          "kind": "task",
+          "title": "Submit listing file to Simple Choice (ICA 6.2a: 3 business days)"
+        },
+        {
+          "day": 7,
+          "kind": "task",
+          "title": "Go live (Thursday). Sign + keybox installed within 24 hours. Send seller the MLS link. Set up showing service."
+        },
+        {
+          "day": 9,
+          "kind": "task",
+          "title": "Opening-weekend open house"
+        },
+        {
+          "day": 21,
+          "kind": "task",
+          "title": "3-week price council with seller (10 showings = 1 offer benchmark)"
+        }
+      ]
+    },
+    {
+      "code": "listing_weekly",
+      "name": "Active listing: weekly rhythm",
+      "applies_to": "listing",
+      "weekdays_only": true,
+      "repeat_weekly": true,
+      "steps": [
+        {
+          "day": 0,
+          "kind": "task",
+          "title": "Monday by 4pm: weekly seller update email (showings, feedback, market, next step). Send every week, even a quiet one.",
+          "weekday": 1
+        },
+        {
+          "day": 0,
+          "kind": "task",
+          "title": "Respond to every showing request within 2 business hours; collect feedback within 48 hours"
+        }
+      ]
+    },
+    {
+      "code": "under_contract_chase",
+      "name": "Under contract: chase rules (from acceptance)",
+      "applies_to": "under_contract",
+      "weekdays_only": false,
+      "steps": [
+        {
+          "day": 0,
+          "kind": "task",
+          "title": "Send executed contract to buyer agent and title company; log all four REPC deadlines within 24 hours"
+        },
+        {
+          "day": 0,
+          "kind": "task",
+          "title": "Get seller disclosures, title commitment and HOA docs to buyer agent before the Seller Disclosure Deadline"
+        },
+        {
+          "day": 2,
+          "kind": "task",
+          "title": "Submit executed contract to Simple Choice (ICA 6.2b: 2 business days)"
+        },
+        {
+          "day": 3,
+          "kind": "task",
+          "title": "Inspection ordered yet? If not, call daily until scheduled (cold-feet signal)"
+        },
+        {
+          "day": 4,
+          "kind": "task",
+          "title": "Confirm earnest money delivered to brokerage (4 calendar days after acceptance)"
+        },
+        {
+          "anchor": "due_diligence",
+          "day": -3,
+          "kind": "task",
+          "title": "All repair negotiation must be finished before 5 PM on the Due Diligence Deadline"
+        },
+        {
+          "anchor": "financing_appraisal",
+          "day": -7,
+          "kind": "task",
+          "title": "No appraisal heard from yet? Call the lender and co-op agent"
+        },
+        {
+          "anchor": "settlement",
+          "day": -7,
+          "kind": "task",
+          "title": "Confirm the buyer's Closing Disclosure has gone out; schedule closing 3-4 days before settlement"
+        },
+        {
+          "anchor": "settlement",
+          "day": -4,
+          "kind": "task",
+          "title": "Schedule closing; get settlement numbers and review them"
+        },
+        {
+          "anchor": "settlement",
+          "day": -1,
+          "kind": "task",
+          "title": "Final walk-through (no earlier than 7 days before settlement); keys and garage openers ready"
+        },
+        {
+          "anchor": "settlement",
+          "day": 2,
+          "kind": "task",
+          "title": "Sign and keybox removed within 48 hours of closing; request a review; submit Complete File to Simple Choice"
+        }
+      ]
+    },
+    {
+      "code": "post_close_year",
+      "name": "Post-close year (13 touches)",
+      "applies_to": "post_close",
+      "weekdays_only": true,
+      "steps": [
+        {
+          "day": 1,
+          "kind": "text",
+          "title": "Congratulations text + closing gift delivered"
+        },
+        {
+          "day": 7,
+          "kind": "call",
+          "title": "One-week check-in: everything working, any questions?"
+        },
+        {
+          "day": 30,
+          "kind": "email",
+          "title": "30-day: home maintenance tips + ask for a Google review"
+        },
+        {
+          "day": 60,
+          "kind": "text",
+          "title": "60-day hello"
+        },
+        {
+          "day": 90,
+          "kind": "call",
+          "title": "Quarterly call"
+        },
+        {
+          "day": 120,
+          "kind": "email",
+          "title": "Market update for their neighborhood"
+        },
+        {
+          "day": 150,
+          "kind": "text",
+          "title": "Seasonal note"
+        },
+        {
+          "day": 180,
+          "kind": "call",
+          "title": "Six-month call: home equity snapshot"
+        },
+        {
+          "day": 210,
+          "kind": "email",
+          "title": "Market update"
+        },
+        {
+          "day": 240,
+          "kind": "text",
+          "title": "Seasonal note"
+        },
+        {
+          "day": 270,
+          "kind": "call",
+          "title": "Quarterly call"
+        },
+        {
+          "day": 300,
+          "kind": "email",
+          "title": "Market update"
+        },
+        {
+          "day": 365,
+          "kind": "call",
+          "title": "Home-iversary call + annual equity review"
+        }
+      ]
+    },
+    {
+      "code": "buyer_onboarding",
+      "name": "Buyer onboarding (from the signed buyer-broker agreement)",
+      "applies_to": "buyer",
+      "weekdays_only": true,
+      "steps": [
+        {
+          "day": 0,
+          "kind": "task",
+          "title": "Send {{first_name}} the Buyer Due Diligence Checklist and Wire Fraud Alert to sign (BBA 4(e): at signing)"
+        },
+        {
+          "day": 0,
+          "kind": "task",
+          "title": "Get the pre-approval letter or proof of funds into the file (packet item)"
+        },
+        {
+          "day": 0,
+          "kind": "task",
+          "title": "Set up the MLS search for {{first_name}}: area, price, must-haves; send the first batch today"
+        },
+        {
+          "day": 1,
+          "kind": "text",
+          "title": "Text {{first_name}}: welcome + what happens next",
+          "body": "Hi {{first_name}}, Cory with Simple Choice Real Estate. Your buyer agreement is in and your search is live. I will send new matches as they hit the market. Text me anytime with questions. Equal Housing Opportunity."
+        },
+        {
+          "day": 3,
+          "kind": "call",
+          "title": "Call {{first_name}}: review the first listings, tighten the search, book showings"
+        },
+        {
+          "day": 7,
+          "kind": "task",
+          "title": "Weekly buyer check-in: new listings, price changes, showing feedback"
+        },
+        {
+          "day": 14,
+          "kind": "task",
+          "title": "Weekly buyer check-in: adjust the search if nothing is landing"
+        },
+        {
+          "day": 21,
+          "kind": "task",
+          "title": "Weekly buyer check-in: lender still current? rate lock strategy?"
+        },
+        {
+          "day": 28,
+          "kind": "task",
+          "title": "Monthly: confirm the buyer-broker agreement end date still covers the timeline; extend in writing if needed"
+        }
+      ]
+    }
+  ]
+}

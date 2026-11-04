@@ -1,0 +1,33 @@
+{
+  "_about": "Programmed drafts for Salisbury RE Desk, written for this app from Pat Morgan's listing system as Cory runs it. Placeholders in {braces} are filled from the facts the reports computed; every fact in a draft is therefore traceable. Edit the wording freely; keep the placeholders.",
+  "weekly_seller_update": {
+    "kind": "email",
+    "subject": "Market Update {date} {property}",
+    "body": "Hi {first},\n\n{property} has been on the market {days_on_market} days. {feeling}\n\n{buyers_said}\n\n{market_line}\n\nShowings: {showings_week} this week, {showings_total} in total. The benchmark for a well-priced home here is {benchmark}. {showings_verdict}\n\nSo what can we do? {next_step}\n\nI will check in again next {next_update_day}."
+  },
+  "price_drop_three_options": {
+    "kind": "email",
+    "subject": "Three options for {property}",
+    "body": "Hi {first},\n\nWe are at {days_on_market} days with {showings_total} showings at {list_price}. Here are three honest options:\n\n1. Hold at {list_price} and keep marketing. Best if the next two weeks bring stronger traffic.\n2. Step under the next search threshold to {option_threshold}. Buyers searching below that number see the home for the first time.\n3. A decisive move to {option_decisive} (about {decisive_pct}% below list). This is the fastest way to a cleaner offer.\n\nMy recommendation: {recommendation}\n\nTell me which one feels right and I will have it live the same day."
+  },
+  "deadline_reminder": {
+    "kind": "text",
+    "body": "{first}, quick reminder: the {label} for {property} is {due_on} at {due_time} Mountain Time. {meaning} {ask}"
+  },
+  "touch_gratitude": {
+    "kind": "text",
+    "body": "Hi {first}, no agenda today. {reason} Thank you for being part of my year."
+  },
+  "touch_business": {
+    "kind": "text",
+    "body": "Hi {first}, {reason} Any excuse to say hello. If a question about your home or the market comes up, I am one text away."
+  },
+  "complete_file_nag": {
+    "kind": "text",
+    "body": "{first}, one item is still open on your file: {item}. Could you send it by {owed_by}? A photo from your phone is fine."
+  },
+  "at_risk_report": {
+    "kind": "text",
+    "body": "AT RISK, {date}\n\nOverdue ({overdue_count}):\n{overdue_lines}\n\nNext {days} days ({next_count}):\n{next_lines}\n\nBroker file clocks:\n{clock_lines}\n\nComplete File gaps:\n{gap_lines}"
+  }
+}

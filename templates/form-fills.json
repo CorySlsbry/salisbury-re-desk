@@ -1,0 +1,21 @@
+{
+  "_note": "Where the app types known facts onto packet forms after intake. Flat UAR forms use 'stamp' boxes in PDF points (x0,y0,x1,y1 of the blank, measured on the named revision); AcroForm state forms use 'fields'. Values: {{seller_names}} {{buyer_names}} {{client_names}} {{property}} {{street}} {{city}} {{zip}} {{county}} {{company}} {{agent}} {{agent_phone}} {{agent_email}} {{client_phone}} {{client_email}} {{today}} {{hoa_name}} {{fee_pct}} {{coop_offer_pct}} {{end_date}}. Nothing here signs or dates a signature line.",
+  "forms": [
+    { "match": "^Sellers Property Condition Disclosure \\(rev", "revision": "March 3, 2026", "side": ["seller"], "doc_kind": "spcd", "folder": "02 Disclosures",
+      "stamp": [ { "page": 1, "box": [81, 181, 482, 193], "value": "{{seller_names}}" }, { "page": 1, "box": [111, 200, 484, 211], "value": "{{property}}" }, { "page": 1, "box": [116, 218, 486, 230], "value": "{{company}} / {{agent}}" } ] },
+    { "match": "^Wire Fraud Alert Disclosure", "revision": "October 12, 2018", "side": ["seller", "buyer"], "doc_kind": "wire_fraud", "folder": "02 Disclosures",
+      "stamp": [ { "page": 1, "box": [272, 112, 448, 124], "value": "{{company}}" }, { "page": 1, "box": [36, 124, 242, 136], "value": "{{agent}}" }, { "page": 1, "box": [290, 124, 471, 136], "value": "{{client_names}}" } ] },
+    { "match": "^Disclosure & Acknowledgement Regarding Lead-Based Paint", "revision": "August 1, 2018", "side": ["seller", "buyer"], "doc_kind": "lead_paint", "folder": "02 Disclosures", "only_when": "pre1978",
+      "stamp": [ { "page": 1, "box": [372, 94, 568, 106], "value": "{{property}}" } ] },
+    { "match": "^Request to Homeowner", "revision": "January 22, 2026", "side": ["seller"], "doc_kind": "hoa", "folder": "02 Disclosures", "only_when": "hoa",
+      "stamp": [ { "page": 1, "box": [274, 100, 575, 113], "value": "{{hoa_name}}" }, { "page": 1, "box": [200, 122, 576, 134], "value": "{{seller_names}}" }, { "page": 1, "box": [301, 143, 571, 156], "value": "{{agent}}, {{company}}" }, { "page": 1, "box": [143, 165, 574, 178], "value": "{{property}}" }, { "page": 1, "box": [134, 187, 289, 199], "value": "{{client_phone}}" }, { "page": 1, "box": [355, 187, 575, 199], "value": "{{client_email}}" } ] },
+    { "match": "^Limited Agency Consent Agreement", "revision": "November 1, 2024", "side": ["seller"], "doc_kind": "agency_disclosure", "folder": "02 Disclosures", "only_when": "manual",
+      "stamp": [ { "page": 1, "box": [386, 128, 566, 139], "value": "{{seller_names}}" }, { "page": 1, "box": [428, 145, 566, 156], "value": "{{agent}}" }, { "page": 1, "box": [132, 162, 400, 173], "value": "{{company}}" }, { "page": 1, "box": [171, 191, 449, 202], "value": "{{property}}" } ] },
+    { "match": "^Real Estate Brokerage Compensation Agreement \\(rev", "revision": "November 1, 2024", "side": ["seller"], "doc_kind": "compensation", "folder": "01 Agreements", "only_when": "manual",
+      "stamp": [ { "page": 1, "box": [312, 75, 506, 85], "value": "{{company}}" }, { "page": 1, "box": [348, 97, 529, 108], "value": "{{seller_names}}" }, { "page": 1, "box": [145, 108, 485, 119], "value": "{{property}}" }, { "page": 1, "box": [176, 216, 250, 226], "value": "{{coop_offer_pct}}" } ] },
+    { "match": "^Buyer Due Diligence Checklist", "revision": "May 1, 2025", "side": ["buyer"], "doc_kind": "bba", "folder": "02 Disclosures",
+      "stamp": [ { "page": 1, "box": [318, 86, 575, 98], "value": "{{company}}" }, { "page": 1, "box": [140, 98, 428, 110], "value": "{{agent}}" }, { "page": 1, "box": [22, 110, 292, 122], "value": "{{client_names}}" } ] },
+    { "match": "^lead disclosure and acknowledgement$", "source": "state", "side": ["seller", "buyer"], "doc_kind": "lead_paint", "folder": "02 Disclosures", "only_when": "pre1978",
+      "fields": { "THIS IS A DISCLOSURE AND ACKNOWLEDGEMENT concerning the Property located at": "{{property}}" } }
+  ]
+}

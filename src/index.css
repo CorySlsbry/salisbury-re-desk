@@ -1,0 +1,8 @@
+@import "tailwindcss";
+@theme {
+  --color-brand: #ce011f;
+  --color-ink: #0f0f11;
+  --color-paper: #f7f4ef;
+}
+:root { color-scheme: light; }
+body { @apply bg-paper text-ink antialiased; font-family: "Segoe UI", system-ui, sans-serif; }

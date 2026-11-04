@@ -1,0 +1,335 @@
+{
+  "_source": "Simple Choice Real Estate Independent Contractor Agreement, Exhibit B Transaction File Checklist (Complete File), signed 2026-09-05; plus REPC section 7 seller disclosure list. required_when: always | pre1978 | hoa | if_applicable | under_contract",
+  "seller": {
+    "name": "Seller packet (listing side)",
+    "items": [
+      {
+        "doc_kind": "listing_agreement",
+        "label": "Signed listing agreement + all addenda, extensions, amendments",
+        "required_when": "always",
+        "form_code": "uar_listing_agreement"
+      },
+      {
+        "doc_kind": "agency_disclosure",
+        "label": "Agency disclosure, signed and dated at first substantive contact",
+        "required_when": "always",
+        "form_code": "uar_agency_disclosure"
+      },
+      {
+        "doc_kind": "spcd",
+        "label": "Seller Property Condition Disclosure (seller fills it out, never the agent)",
+        "required_when": "always",
+        "form_code": "uar_spcd"
+      },
+      {
+        "doc_kind": "lead_paint",
+        "label": "Lead-based paint disclosure with acknowledgments (built before 1978)",
+        "required_when": "pre1978",
+        "form_code": "lead_disclosure"
+      },
+      {
+        "doc_kind": "compensation",
+        "label": "Compensation agreement / offer of compensation documentation",
+        "required_when": "always"
+      },
+      {
+        "doc_kind": "mls_input",
+        "label": "MLS data entry sheet + any MLS exemption or delayed-marketing forms",
+        "required_when": "always"
+      },
+      {
+        "doc_kind": "wire_fraud",
+        "label": "Wire fraud advisory",
+        "required_when": "always"
+      },
+      {
+        "doc_kind": "hoa",
+        "label": "HOA documents, CC&Rs and required disclosures",
+        "required_when": "hoa"
+      },
+      {
+        "doc_kind": "title_commitment",
+        "label": "Commitment for title insurance (order at signing)",
+        "required_when": "under_contract"
+      },
+      {
+        "doc_kind": "repc",
+        "label": "Executed REPC with all counteroffers and addenda",
+        "required_when": "under_contract",
+        "form_code": "repc"
+      },
+      {
+        "doc_kind": "emd_receipt",
+        "label": "Earnest money receipt and deposit confirmation",
+        "required_when": "under_contract"
+      }
+    ]
+  },
+  "buyer": {
+    "name": "Buyer packet (buyer side)",
+    "items": [
+      {
+        "doc_kind": "bba",
+        "label": "Signed buyer-broker agreement (and touring agreement, if used)",
+        "required_when": "always",
+        "form_code": "uar_bba"
+      },
+      {
+        "doc_kind": "agency_disclosure",
+        "label": "Agency disclosure, signed and dated at first substantive contact",
+        "required_when": "always",
+        "form_code": "uar_agency_disclosure"
+      },
+      {
+        "doc_kind": "preapproval",
+        "label": "Proof of funds and/or lender pre-approval",
+        "required_when": "always"
+      },
+      {
+        "doc_kind": "wire_fraud",
+        "label": "Wire fraud advisory",
+        "required_when": "always"
+      },
+      {
+        "doc_kind": "repc",
+        "label": "Executed purchase contract with all counteroffers and addenda",
+        "required_when": "under_contract",
+        "form_code": "repc"
+      },
+      {
+        "doc_kind": "emd_receipt",
+        "label": "Earnest money receipt and deposit confirmation",
+        "required_when": "under_contract"
+      },
+      {
+        "doc_kind": "spcd_ack",
+        "label": "Seller disclosures acknowledged by buyer",
+        "required_when": "under_contract"
+      },
+      {
+        "doc_kind": "lead_paint",
+        "label": "Lead-based paint disclosure acknowledged (built before 1978)",
+        "required_when": "pre1978",
+        "form_code": "lead_disclosure"
+      },
+      {
+        "doc_kind": "inspection",
+        "label": "Inspection, appraisal and due diligence resolution documents",
+        "required_when": "under_contract"
+      }
+    ]
+  },
+  "closing": {
+    "name": "Closing (both sides)",
+    "items": [
+      {
+        "doc_kind": "settlement",
+        "label": "Final settlement statement / closing disclosure",
+        "required_when": "always"
+      },
+      {
+        "doc_kind": "cda",
+        "label": "Commission disbursement authorization",
+        "required_when": "always"
+      },
+      {
+        "doc_kind": "referral",
+        "label": "Referral agreement",
+        "required_when": "if_applicable"
+      },
+      {
+        "doc_kind": "communication",
+        "label": "All written communications material to the transaction",
+        "required_when": "always"
+      },
+      {
+        "doc_kind": "cancellation",
+        "label": "Cancellation, release or termination documents (if the transaction did not close)",
+        "required_when": "if_applicable"
+      }
+    ]
+  },
+  "repc_section7_seller_disclosures": [
+    "Seller Property Condition Disclosure, completed, signed and dated by Seller",
+    "Lead-Based Paint Disclosure & Acknowledgement (built before 1978)",
+    "Commitment for Title Insurance",
+    "Restrictive covenants (CC&Rs), rules and regulations",
+    "Most recent HOA minutes, budget and financial statement",
+    "Long-term tenant leases or rental agreements not expiring before Closing",
+    "Short-term rental booking schedule",
+    "Existing property management agreements",
+    "Evidence of water rights and/or water shares",
+    "Written notice of known environmental problems and building or zoning code violations",
+    "FIRPTA notice if Seller is a foreign person"
+  ],
+  "state_forms": [
+    {
+      "code": "repc",
+      "name": "Real Estate Purchase Contract (REPC)",
+      "file": "purchase-contract.pdf",
+      "url": "https://commerce.utah.gov/realestate/wp-content/uploads/2023/03/purchase-contract.pdf"
+    },
+    {
+      "code": "fha_va_addendum",
+      "name": "FHA/VA Loan Addendum",
+      "file": "fha-va-loan-addendum.pdf",
+      "url": "https://commerce.utah.gov/realestate/wp-content/uploads/2023/03/fha-va-loan-addendum.pdf"
+    },
+    {
+      "code": "seller_financing_addendum",
+      "name": "Seller Financing Addendum",
+      "file": "seller-financing-addendum.pdf",
+      "url": "https://commerce.utah.gov/realestate/wp-content/uploads/2023/03/seller-financing-addendum.pdf"
+    },
+    {
+      "code": "blank_addendum",
+      "name": "Blank Addendum (extensions, counters)",
+      "file": "blank-addendum.pdf",
+      "url": "https://commerce.utah.gov/realestate/wp-content/uploads/2023/03/blank-addendum.pdf"
+    },
+    {
+      "code": "title_emd_addendum",
+      "name": "Title Company Earnest Money Addendum",
+      "file": "title-company-earnest-money-addendum.pdf",
+      "url": "https://commerce.utah.gov/realestate/wp-content/uploads/2023/03/title-company-earnest-money-addendum.pdf"
+    },
+    {
+      "code": "assumption_addendum",
+      "name": "Assumption Addendum to REPC",
+      "file": "assumption-addendum.pdf",
+      "url": "https://commerce.utah.gov/realestate/wp-content/uploads/2023/03/assumption-addendum.pdf"
+    },
+    {
+      "code": "buyer_financial_info",
+      "name": "Buyer Financial Information Sheet",
+      "file": "buyer-financial-information-sheet.pdf",
+      "url": "https://commerce.utah.gov/realestate/wp-content/uploads/2023/03/buyer-financial-information-sheet.pdf"
+    },
+    {
+      "code": "lead_disclosure",
+      "name": "Disclosure & Acknowledgment: Lead Based Paint",
+      "file": "lead-disclosure-and-acknowledgement.pdf",
+      "url": "https://commerce.utah.gov/realestate/wp-content/uploads/2023/03/lead-disclosure-and-acknowledgement.pdf"
+    },
+    {
+      "code": "lead_addendum",
+      "name": "Lead Based Paint Addendum",
+      "file": "lead-based-paint-addendum.pdf",
+      "url": "https://commerce.utah.gov/realestate/wp-content/uploads/2023/03/lead-based-paint-addendum.pdf"
+    },
+    {
+      "code": "aitd",
+      "name": "All Inclusive Trust Deed",
+      "file": "all-Inclusive-trust-deed.pdf",
+      "url": "https://commerce.utah.gov/realestate/wp-content/uploads/2023/03/all-Inclusive-trust-deed.pdf"
+    },
+    {
+      "code": "aitd_note",
+      "name": "All Inclusive Promissory Note",
+      "file": "all-Inclusive-promissory-note.pdf",
+      "url": "https://commerce.utah.gov/realestate/wp-content/uploads/2023/03/all-Inclusive-promissory-note.pdf"
+    }
+  ],
+  "uar_forms_expected": [
+    {
+      "code": "uar_listing_agreement",
+      "name": "Exclusive Right to Sell Listing Agreement & Agency Disclosure",
+      "match": "^Exclusive Right to Sell Listing Agreement"
+    },
+    {
+      "code": "uar_listing_addendum",
+      "name": "Addendum to Listing Agreement (extensions, price changes)",
+      "match": "^Addendum to Exclusive Right to Sell Listing Agreement (and|&) Agency Disclosure \\(rev"
+    },
+    {
+      "code": "uar_spcd",
+      "name": "Seller's Property Condition Disclosure",
+      "match": "^Sellers Property Condition Disclosure"
+    },
+    {
+      "code": "uar_bba",
+      "name": "Exclusive Buyer-Broker Agreement & Agency Disclosure",
+      "match": "^Exclusive Buyer-Broker Agreement"
+    },
+    {
+      "code": "uar_bba_addendum",
+      "name": "Addendum to Buyer-Broker Agreement",
+      "match": "^Addendum to Exclusive Buyer-Broker Agreement (and|&) Agency Disclosure \\(rev"
+    },
+    {
+      "code": "uar_agency_disclosure",
+      "name": "Agency disclosure (built into the listing agreement and the BBA; Limited Agency Consent when you represent both)",
+      "match": "^Limited Agency Consent Agreement"
+    },
+    {
+      "code": "uar_unrepresented_buyer",
+      "name": "Unrepresented Buyer Disclosure",
+      "match": "^Unrepresented Buyer Disclosure"
+    },
+    {
+      "code": "uar_compensation_agreement",
+      "name": "Real Estate Brokerage Compensation Agreement (offer of compensation)",
+      "match": "^Real Estate Brokerage Compensation Agreement"
+    },
+    {
+      "code": "uar_lead_paint",
+      "name": "Disclosure & Acknowledgement Regarding Lead-Based Paint",
+      "match": "^Disclosure & Acknowledgement Regarding Lead-Based Paint"
+    },
+    {
+      "code": "uar_wire_fraud",
+      "name": "Wire Fraud Alert Disclosure",
+      "match": "^Wire Fraud Alert Disclosure"
+    },
+    {
+      "code": "uar_hoa_request",
+      "name": "Request to Homeowner/Community Association for Documentation",
+      "match": "^Request to Homeowner"
+    },
+    {
+      "code": "uar_due_diligence_checklist",
+      "name": "Buyer Due Diligence Checklist",
+      "match": "^Buyer Due Diligence Checklist"
+    },
+    {
+      "code": "uar_emd_receipt",
+      "name": "Confirmation of Receipt of Earnest Money",
+      "match": "^Confirmation of Receipt of Earnest Money"
+    },
+    {
+      "code": "uar_dd_resolution",
+      "name": "Resolution of Due Diligence Addendum",
+      "match": "^Resolution of Due Diligence Addendum"
+    },
+    {
+      "code": "uar_repc",
+      "name": "Real Estate Purchase Contract (UAR copy of the state form)",
+      "match": "^Real Estate Purchase Contract \\(rev"
+    },
+    {
+      "code": "uar_addendum_counter",
+      "name": "Addendum / Counteroffer to REPC",
+      "match": "^AddendumCounteroffer to REPC"
+    },
+    {
+      "code": "uar_cancel_listing",
+      "name": "Cancellation of the Listing Agreement",
+      "match": "^Cancellation and Termination of the Exclusive Right to Sell"
+    },
+    {
+      "code": "uar_cancel_bba",
+      "name": "Cancellation of the Buyer-Broker Agreement",
+      "match": "^Cancellation and Termination of the Exclusive Buyer-Broker"
+    },
+    {
+      "code": "uar_emd_release",
+      "name": "Resolution of Earnest Money Dispute (Mutual Release)",
+      "match": "^Resolution of Earnest Money Dispute"
+    },
+    {
+      "code": "uar_listing_input",
+      "name": "MLS Listing Input Form (UtahRealEstate.com, not a UAR form)",
+      "match": "Listing Input"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "_source": "Pat Morgan, The Bearded Realtor / House Help Utah: Free Bonus 'Daily Tasks', Listing Course Weeks 5-6 (Mon-Fri), distilled in the bearded-realtor skill (playbooks/daily-engine.md). Structural rules are his; every number is his and can be changed in Settings.",
+  "settings_defaults": { "engine_morning_start": "05:00", "engine_morning_end": "06:30", "engine_reset_day": "sunday", "engine_launch_phase": "0", "engine_open_house_day": "saturday", "engine_coaching_call": "thursday 12:00" },
+  "blocks": {
+    "reset": {
+      "title": "Block A: reset your head",
+      "note": "Before the household wakes. Focused, the whole list takes 45-60 minutes.",
+      "items": [
+        { "key": "breaths", "title": "Three breaths", "how": "Breathe in positivity and confidence, hold a few seconds, breathe OUT negativity and self-doubt with a sound on the exhale. Three times. Use it again mid-day when stressed; if it does not clear, cold shower.", "minutes": 2 },
+        { "key": "i_am", "title": "\"I am\" statements in the mirror", "how": "Present tense, eye to eye, until you believe them: \"I am a listing agent.\" \"I am selling N homes this year.\" Not business-only: anything you want to speak into existence.", "minutes": 3 },
+        { "key": "gratitude", "title": "Gratitude, out loud", "how": "Three things. Spoken, not thought.", "minutes": 2 },
+        { "key": "manifest_369", "title": "Manifest 3-6-9", "how": "Write the goal in your phone Notes and say it out loud while you watch it being written: 3 times now, 6 at lunch, 9 at night. Pat: \"this 369 thing is very important, so please keep doing it.\"", "minutes": 3, "count_target": 3 },
+        { "key": "walk", "title": "30-minute walk, no input", "how": "No music, no podcast, no phone audio. Driving with the radio off counts. This is the idea generator, not a fitness slot: the ideas that surface around minute 30 ARE the videos.", "minutes": 30, "timer": true },
+        { "key": "act", "title": "Act on whatever surfaced", "how": "Capture it below and do it, no matter how weird it seems. The filter is the failure mode (the creepy-building video did 50,000 views).", "minutes": 5, "capture": "idea" }
+      ]
+    },
+    "volume": {
+      "title": "Block B: the volume",
+      "note": "The part that produces business. Every day, before anything else in the business starts.",
+      "items": [
+        { "key": "posts", "title": "Post {{posts}} pieces of content", "how": "Reels, not stories. Try to have your face in all of them; people follow the person, then discover the business. Every video ends on the seller-program card. Spread across platforms per the cadence table so nothing throttles.", "count_target_key": "posts", "platforms": true },
+        { "key": "marketplace", "title": "{{marketplace}}", "how": "One home per day on Facebook Marketplace. It does not have to be your listing. Seller-program graphic as photos 2-3.", "count_target": 1 },
+        { "key": "friend_adds", "title": "Add 10 friends on every platform", "how": "Manual, never automated. Stay under each platform's daily cap (table below); Facebook is the most throttle-sensitive. Prefer people with mutual friends.", "count_target": 10, "platforms": true },
+        { "key": "outreach", "title": "Reach out to 10 people", "how": "Call, DM, text or email, in the channel THEY prefer. Three of the ten are pure gratitude or a compliment, no ask. Start with today's birthdays (a birthday is a zero-pretext reason to message anyone), then top up from the pipeline.", "count_target": 10, "gratitude_target": 3 },
+        { "key": "one_percent", "title": "1% better than yesterday", "how": "One sentence: what is 1% better today. Then put out fires, go on listing appointments, return calls, make more content.", "note": true }
+      ]
+    }
+  },
+  "days": {
+    "monday": { "title": "Monday: pipeline hygiene + deadlines", "minutes": 60, "note": "Mondays are the busiest day: everyone is catching up. Plan for interruptions, not deep work.",
+      "items": [
+        { "key": "mon_deadlines", "title": "Review every contract deadline in the next 7 days; confirm every appointment is set", "data": "deadlines_7d" },
+        { "key": "mon_listings", "title": "Follow up with every potential LISTING, in the channel they prefer. Any excuse to touch base (go live this week? photographer is five days out?). Do not be pushy.", "data": "potential_listings" },
+        { "key": "mon_buyers", "title": "Follow up with every potential BUYER. Stagnant? Open their search, send something even approximately right: \"this popped up, thought of you.\"", "data": "potential_buyers" },
+        { "key": "mon_cleanup", "title": "Clean up the weekend: update remarks, strip OPEN HOUSE wording from the MLS and all marketing", "data": "open_houses_held" },
+        { "key": "mon_seller_updates", "title": "Weekly seller update to every active listing by 4 PM (even a quiet week)", "data": "active_listings", "agent": "listing" }
+      ] },
+    "tuesday": { "title": "Tuesday: listings + price movement", "minutes": 20, "note": "Pat calls this one of his least favorite parts of the job; it is scheduled precisely because nobody does it voluntarily. Consistency beats huge gains in one day. Do not spend tomorrow's energy today.",
+      "items": [
+        { "key": "tue_market_updates", "title": "Market update on EVERY current listing: comps by status (active / under contract / sold) in the price band, showings vs the 1-2 per week benchmark, three pricing options. Get the price reductions.", "data": "active_listings", "agent": "listing" },
+        { "key": "tue_team", "title": "Team meeting (if you have a team)" }
+      ] },
+    "wednesday": { "title": "Wednesday: the weekend setup", "minutes": 10, "note": "The hinge of the week: structured work drops from here, appointments rise.",
+      "items": [
+        { "key": "wed_plan_oh", "title": "Plan the weekend open houses from new listings and fresh price drops", "data": "open_house_planner" },
+        { "key": "wed_remarket", "title": "Re-market every listing and upcoming open house on Marketplace and social" }
+      ] },
+    "thursday": { "title": "Thursday: the content build day", "minutes": 10, "note": "Thursdays are slow, which is why the content gets made today. You still post your normal 3. Coaching call at noon MST.",
+      "items": [
+        { "key": "thu_reels", "title": "MAKE 10 reels today (build them, do not post them). Pull from the idea queue; run every hook through the Content agent.", "data": "idea_queue", "count_target": 10, "agent": "content" },
+        { "key": "thu_call", "title": "Coaching call, noon MST" }
+      ] },
+    "friday": { "title": "Friday: the posting day", "minutes": 10, "note": "Finish the ENTIRE non-negotiable list first, then start posting. Today the daily list changes: 10 posts, and Marketplace = the open houses.",
+      "items": [
+        { "key": "fri_post_reels", "title": "Post the 10 reels, one every hour from 8 AM, spread across platforms per the cadence table", "data": "reel_schedule", "count_target": 10 },
+        { "key": "fri_oh_marketplace", "title": "Post this weekend's open houses to Facebook Marketplace", "data": "open_houses_upcoming" }
+      ] },
+    "saturday": { "title": "Saturday: recover in place", "minutes": 0, "note": "Missed something this week? Slide it here. Open houses today (verify Saturday still outperforms Sunday in your market).", "items": [ { "key": "sat_open_houses", "title": "Hold the open houses; log traffic", "data": "open_houses_today" } ] },
+    "sunday": { "title": "Reset day", "minutes": 0, "note": "A genuine reset, not a light work day. Family, no work. Pat has burned out dozens of times; the streak survives because of the stop. Overflow moves to Monday.", "items": [] }
+  },
+  "recovery": {
+    "missed_today": "Not a failed program. Tomorrow is a new day. Let it go and restart.",
+    "missed_weekday_task": "Recover in place: slide the work onto Saturday.",
+    "week_collapsed": "Restart Monday. It is a loop, not a syllabus.",
+    "ceiling": "Do the core list first. Only then, if energy is left, add more. Do not spend tomorrow's energy today."
+  },
+  "failure_modes": [ "Stuck? Go for a walk or meditate.", "Feeling low? Work out, cold shower, cold plunge.", "Then: put out fires, go on more listing appointments, return calls, make more content." ]
+}

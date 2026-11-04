@@ -1,0 +1,33 @@
+{
+  "source": "Simple Choice Real Estate Independent Contractor Agreement (signed 2026-09-05), Exhibit B - Transaction File Checklist (\"Complete File\")",
+  "rule": "A file is not complete, and no commission will be disbursed, until every applicable item below has been submitted, fully executed, legible, and correctly dated.",
+  "deadlines": "ICA 6.2: listing files within 3 business days after the listing agreement is signed; executed contracts, addenda and disclosures within 2 business days after they are binding; the balance before disbursement. Late file fee after 15 days.",
+  "seller": [
+    "Signed listing agreement and all addenda, extensions, and amendments",
+    "Seller property condition disclosure",
+    "Agency disclosure, signed and dated at first substantive contact",
+    "Lead-based paint disclosure (pre-1978) with acknowledgments",
+    "Compensation agreement / offer of compensation documentation",
+    "MLS data entry sheet and any MLS exemption or delayed marketing forms",
+    "Wire fraud advisory",
+    "HOA documents, CC&Rs, and any required disclosures"
+  ],
+  "buyer": [
+    "Signed buyer-broker agreement (and touring agreement, if used)",
+    "Agency disclosure, signed and dated at first substantive contact",
+    "Executed purchase contract with all counteroffers and addenda",
+    "Proof of funds and/or lender pre-approval",
+    "Earnest money receipt and deposit confirmation",
+    "Inspection, appraisal, and due diligence resolution documents",
+    "Seller disclosures acknowledged by buyer",
+    "Wire fraud advisory"
+  ],
+  "closing": [
+    "Final settlement statement / closing disclosure",
+    "Commission disbursement authorization",
+    "Referral agreement, if applicable",
+    "All written communications material to the transaction",
+    "Cancellation, release, or termination documents if the transaction did not close"
+  ],
+  "additional_items_required_by_company": []
+}

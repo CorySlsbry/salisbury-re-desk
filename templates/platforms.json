@@ -1,0 +1,16 @@
+{
+  "_note": "Per-platform posting and outreach caps so the daily volume never trips a throttle. Platforms do not publish hard numbers; these are conservative working limits from Pat's own testing (YouTube Shorts throttled him to zero at ~20/day) and widely reported account-safety guidance. Adjust in this file; the app reads it on boot.",
+  "platforms": [
+    { "key": "tiktok", "name": "TikTok", "posts_per_day_max": 6, "posts_min_gap_minutes": 45, "friend_adds_per_day_max": 30, "dms_per_day_max": 40, "notes": "No practical posting cap in Pat's testing. Add trending audio inside TikTok. Set the cover to the hook frame, add location + hashtags after posting." },
+    { "key": "instagram", "name": "Instagram", "posts_per_day_max": 3, "posts_min_gap_minutes": 120, "friend_adds_per_day_max": 40, "dms_per_day_max": 30, "notes": "Reels only (not Stories) for reach; auto-share to Facebook + Story. More than ~3 reels/day dilutes reach and repeated bursts read as spam. Follow/unfollow bursts get action-blocked: spread adds through the day." },
+    { "key": "facebook", "name": "Facebook", "posts_per_day_max": 3, "posts_min_gap_minutes": 120, "friend_adds_per_day_max": 15, "dms_per_day_max": 30, "notes": "Most reels arrive via Instagram auto-share; post the with-music version to the FB Story by hand. Friend requests are the most throttle-sensitive action on Facebook: 10-15/day, only people with mutual friends, never a batch." },
+    { "key": "youtube", "name": "YouTube Shorts", "posts_per_day_max": 2, "posts_min_gap_minutes": 240, "friend_adds_per_day_max": 0, "dms_per_day_max": 0, "notes": "Pat's hard finding: ~20 Shorts in a day was throttled to zero views. Once, maybe twice a day. Upload the NO-MUSIC master and add the song from YouTube's own library." },
+    { "key": "linkedin", "name": "LinkedIn", "posts_per_day_max": 1, "posts_min_gap_minutes": 1440, "friend_adds_per_day_max": 15, "dms_per_day_max": 20, "notes": "Optional. One post a day at most; connection requests are capped weekly (about 100), so 10-15/day is the ceiling." },
+    { "key": "marketplace", "name": "Facebook Marketplace", "posts_per_day_max": 2, "posts_min_gap_minutes": 240, "friend_adds_per_day_max": 0, "dms_per_day_max": 0, "notes": "One home per day (open houses on Friday). Seller-program graphic as photos 2-3. Duplicate listings of the same home in one day get removed." }
+  ],
+  "reel_distribution": {
+    "_note": "How Friday's 10 reels spread across platforms so no platform exceeds its cap. Order = posting order, one per hour from 08:00.",
+    "ten": ["tiktok", "instagram", "tiktok", "youtube", "tiktok", "instagram", "tiktok", "facebook", "tiktok", "instagram"],
+    "three": ["tiktok", "instagram", "youtube"]
+  }
+}

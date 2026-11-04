@@ -1,0 +1,22 @@
+node_modules/
+dist/
+*.local
+.vscode/
+.idea/
+.DS_Store
+*.log
+vendor/
+src-tauri/target/
+src-tauri/resources/
+src-tauri/gen/schemas/
+sidecar/doc/.venv/
+sidecar/doc/build/
+sidecar/doc/dist/
+__pycache__/
+*.spec
+*.gguf
+.env*
+
+# UAR member forms are copyrighted: keep the derived fixture PDFs out of git, commit only the JSON
+tests/fixtures/listing-*.pdf
+tests/fixtures/bba-*.pdf
